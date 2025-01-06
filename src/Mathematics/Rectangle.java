@@ -48,8 +48,10 @@ public class Rectangle {
         float width = scanner.nextFloat();
         rectangle.setWidth(width);
 
+        System.out.println("------------------");
         System.out.printf("Perimeter: %.2f%n",rectangle.Perimeter(length, width));
-        System.out.printf("Area: %.2f",rectangle.Area(length, width));
+        System.out.printf("Area: %.2f%n",rectangle.Area(length, width));
+        System.out.println("------------------");
         scanner.close();
 
        
